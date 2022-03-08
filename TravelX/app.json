@@ -6,9 +6,9 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#04041C"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,12 +21,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#04041C"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "COMP135",
+    "githubUrl": "https://github.com/sloan530/travel-x.git"
   }
 }
