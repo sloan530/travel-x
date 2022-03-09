@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, Alert, TouchableWithoutFeedback, View, SafeAreaView, Image, Button } from 'react-native';
+import { Dimensions, StyleSheet, Text, Alert, TouchableWithoutFeedback, View, Image, Button } from 'react-native';
+import FirstScreen from './app/screens/FirstScreen';
 
 export default function App() {
   //console.log("App executed");
@@ -7,17 +8,10 @@ export default function App() {
   //let x = 1;
 
   return (
-    <SafeAreaView style={styles.container}>
-      <StatusBar style="auto" />
-      <TouchableWithoutFeedback onPress={()=>console.log("Image Tapped")}>
-      <Image source={require('./assets/logo.png')} />
-      </TouchableWithoutFeedback>
-      <Button color="#E9672D" title="Get Started!" onPress={()=>console.log("Button Pressed")}/>
-    
-    </SafeAreaView>
+    <FirstScreen />
   );
 }
-
+//make the width half< width: "50%"
 //text
 //<Text numberOfLines={1} onPress={handlePress}> TravelX</Text>
 //network images 
